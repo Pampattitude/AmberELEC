@@ -310,7 +310,7 @@ function rp_hasBinary() {
     # threaded C++ apps on Raspbian (armv6 userland)
     if [[ "$__os_id" != "Raspbian" ]] && ! isPlatform "armv6"; then
         case "$id" in
-            emulationstation|zdoom|lr-dinothawr|lr-ppsspp|ppsspp)
+            emulationstation|zdoom|lr-dinothawr)
                 return 1
                 ;;
         esac

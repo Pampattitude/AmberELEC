@@ -311,13 +311,6 @@ then
 				RUNTHIS='${TBASH} /usr/bin/dosbox-x.start -conf "${GAMEFOLDER}dosbox-SDL2.conf"'
 			fi
 		;;
-		"psp"|"pspminis")
-			jslisten set "PPSSPPSDL"
-			if [ "$EMU" = "PPSSPPSDL" ]
-			then
-				RUNTHIS='${TBASH} /usr/bin/ppsspp.sh "${ROMNAME}"'
-			fi
-		;;
 		"neocd")
 			jslisten set "retroarch"
 			if [ "$EMU" = "fbneo" ]

@@ -17,9 +17,6 @@
 # "mame")
 #	CORES="AdvanceMame,Libretro_mame2003_plus,Libretro_mame2010,Libretro_mame2015,Libretro_fbalpha"
 #	;;
-# "psp")
-#	CORES="PPSSPPSA,Libretro_ppsspp"
-#	;;
 #"n64")
 #	CORES="Libretro_mupen64plus,Libretro_parallel_n64,Libretro_mupen64plus_next,M64P"
 #	;;
