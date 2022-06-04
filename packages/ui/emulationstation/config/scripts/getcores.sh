@@ -19,9 +19,6 @@ case "$1" in
 "mame")
 	CORES="AdvanceMame,Libretro_mame2003_plus,Libretro_mame2010,Libretro_fbneo,Libretro_mba_mini"
 	;;
-"psp")
-	CORES="Libretro_ppsspp,PPSSPPSA"
-	;;
 "n64")
 	CORES="Libretro_mupen64plus_next,Libretro_mupen64plus,Libretro_parallel_n64"
 	;;
